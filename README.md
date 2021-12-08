@@ -1,2 +1,2 @@
 # Chatos
-Final Android Project
+Android final project
