@@ -55,6 +55,7 @@ dependencies {
     //------------------EndOfImageview----------------
     //--------------------glide------------------
     implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     //-----------------EndOfGlide----------------
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
