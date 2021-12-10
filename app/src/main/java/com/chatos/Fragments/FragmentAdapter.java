@@ -18,20 +18,25 @@ public class FragmentAdapter extends FragmentStateAdapter {
         switch(position)
         {
             case 1:
+                //Show Chat
                 return new ChatsFragment();
 
             case 2:
 
-                return new UsersFragment();
+               //Show Profile
+                return new ProfileFragment();
 
+            case 3:
+               // Show Users
+                 return new UsersFragment();
         }
 
-        return new UsersFragment();
+        return new  UsersFragment();
     }
 
     @Override
     public int getItemCount() {
-        return 2;//3
+        return 3;//Number of fragment we want to show
     }
 
     //--------------------
