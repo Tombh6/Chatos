@@ -1,2 +1,2 @@
 # Chatos
-Android project
+Android project- Chat App
